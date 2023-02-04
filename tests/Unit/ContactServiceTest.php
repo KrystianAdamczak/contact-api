@@ -8,6 +8,7 @@ use App\Services\ContactService;
 use App\Http\Filters\ContactIndexFilter;
 use Illuminate\Database\Eloquent\Builder;
 use App\Http\Requests\IndexContactRequest;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class ContactServiceTest extends TestCase
 {
